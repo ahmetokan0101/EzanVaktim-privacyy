@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gizlilik Politikası - Ezan Vaktim</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <!-- Loading Animation -->
+    <div class="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-mosque me-2"></i>Ezan Vaktim
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#data">Veri Toplama</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#security">Güvenlik</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#permissions">İzinler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">İletişim</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-globe me-1"></i><span>TR</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item active" href="#" data-lang="tr">Türkçe</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="ar">العربية</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="privacy-container">
+            <div class="privacy-header">
+                <h1>Gizlilik Politikası</h1>
+                <p class="text-muted">Son güncelleme tarihi: 26.03.2025</p>
+            </div>
+
+            <div id="about" class="info-card">
+                <h3>Hakkımızda</h3>
+                <p>Ezan Vaktim: Namaz Vakitleri uygulaması olarak kullanıcılarımızın gizliliğine önem veriyoruz. Bu gizlilik politikası, uygulamamızın topladığı, kullandığı ve koruduğu bilgileri açıklamaktadır.</p>
+            </div>
+
+            <div id="data" class="info-card">
+                <h3>Toplanan Bilgiler</h3>
+                <h4>1. Konum Bilgisi</h4>
+                <ul>
+                    <li>Namaz vakitlerini doğru hesaplayabilmek için bulunduğunuz şehir ve ilçe bilgisini kullanıyoruz</li>
+                    <li>Kıble yönünü belirlemek için (kullanıcı izin verirse) anlık konum bilgisini kullanıyoruz</li>
+                    <li>Konum bilgileri sadece cihazınızda saklanır ve üçüncü taraflarla paylaşılmaz</li>
+                </ul>
+
+                <h4>2. Uygulama Tercihleri</h4>
+                <ul>
+                    <li>Bildirim ayarlarınız</li>
+                    <li>Tema tercihiniz</li>
+                    <li>Namaz takip kayıtlarınız</li>
+                    <li>Zikir sayacı verileriniz</li>
+                </ul>
+                <p>Bu veriler sadece cihazınızda yerel olarak saklanır.</p>
+
+                <h4>3. Sensör Kullanımı</h4>
+                <ul>
+                    <li>Pusula sensörü (kıble yönünü belirlemek için)</li>
+                    <li>Bu sensör verileri sadece anlık olarak kullanılır ve saklanmaz</li>
+                </ul>
+
+                <h4>4. Ses Kullanımı</h4>
+                <ul>
+                    <li>Ezan sesi ve bildirim sesleri için ses dosyaları kullanılmaktadır</li>
+                    <li>Bu sesler uygulama içinde yerel olarak saklanır</li>
+                </ul>
+            </div>
+
+            <div id="usage" class="info-card">
+                <h3>Veri Kullanımı</h3>
+                <p>Topladığımız bilgiler şu amaçlarla kullanılır:</p>
+                <ul>
+                    <li>Namaz vakitlerinin doğru hesaplanması</li>
+                    <li>Kıble yönünün belirlenmesi</li>
+                    <li>Ezan bildirimlerinin gönderilmesi</li>
+                    <li>Uygulama tercihlerinizin kaydedilmesi</li>
+                </ul>
+            </div>
+
+            <div id="security" class="info-card">
+                <h3>Veri Güvenliği</h3>
+                <ul>
+                    <li>Tüm verileriniz sadece kendi cihazınızda saklanır</li>
+                    <li>Verileriniz üçüncü taraflarla paylaşılmaz</li>
+                    <li>İnternet bağlantısı sadece namaz vakitlerini güncellemek için kullanılır</li>
+                </ul>
+
+                <h4>Veri Saklama</h4>
+                <ul>
+                    <li>Konum bilgileri ve tercihleriniz siz uygulamayı kaldırana kadar cihazınızda saklanır</li>
+                    <li>Uygulama kaldırıldığında tüm verileriniz silinir</li>
+                </ul>
+            </div>
+
+            <div id="children" class="info-card">
+                <h3>Çocukların Gizliliği</h3>
+                <p>Uygulamamız 13 yaşından küçük çocuklardan bilerek kişisel bilgi toplamamaktadır.</p>
+            </div>
+
+            <div id="permissions" class="info-card">
+                <h3>İzinler</h3>
+                <p>Uygulamamız aşağıdaki izinleri kullanmaktadır:</p>
+                <ul>
+                    <li>Konum izni (kıble yönü için, isteğe bağlı)</li>
+                    <li>Bildirim izni (ezan vakti bildirimleri için)</li>
+                    <li>İnternet erişimi (namaz vakitlerini güncellemek için)</li>
+                    <li>Titreşim izni (bildirimler için)</li>
+                    <li>Pusula sensörü izni (kıble yönü için)</li>
+                </ul>
+            </div>
+
+            <div id="changes" class="info-card">
+                <h3>Değişiklikler</h3>
+                <p>Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Değişiklikler yapıldığında, bu sayfada yeni politikayı yayınlayacağız.</p>
+            </div>
+
+            <div id="contact" class="contact-section">
+                <h3>İletişim</h3>
+                <p>Gizlilik politikamızla ilgili sorularınız için:</p>
+                <a href="mailto:hazeer.dev@gmail.com">
+                    <i class="fas fa-envelope me-2"></i>hazeer.dev@gmail.com
+                </a>
+                <p class="mt-3">Bu gizlilik politikası, Ezan Vaktim: Namaz Vakitleri uygulamasının kullanıcılarına yönelik gizlilik uygulamalarını açıklar.</p>
+            </div>
+
+            <!-- FAQ Section -->
+            <div id="faq" class="info-card">
+                <h3>Sık Sorulan Sorular</h3>
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                Verilerim nasıl korunuyor?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Tüm verileriniz cihazınızda şifrelenmiş olarak saklanır ve üçüncü taraflarla paylaşılmaz. Verileriniz sadece uygulama içinde kullanılır.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                Konum bilgilerim nasıl kullanılıyor?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Konum bilgileriniz sadece namaz vakitlerini hesaplamak ve kıble yönünü belirlemek için kullanılır. Bu bilgiler cihazınızda saklanır ve sunuculara gönderilmez.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                Bildirimler nasıl çalışıyor?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Bildirimler sadece namaz vakitlerini hatırlatmak için kullanılır. Bildirim tercihlerinizi istediğiniz zaman değiştirebilirsiniz.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Ezan Vaktim. Tüm hakları saklıdır.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Translations -->
+    <script src="translations.js"></script>
+    <!-- Custom JS -->
+    <script>
+        // Loading Animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const loading = document.querySelector('.loading');
+            const content = document.querySelector('.privacy-container');
+            
+            // Initially hide content
+            if (content) {
+                content.style.opacity = '0';
+            }
+            
+            // When everything is loaded
+            window.addEventListener('load', function() {
+                if (loading) {
+                    loading.style.opacity = '0';
+                    setTimeout(() => {
+                        loading.style.display = 'none';
+                        if (content) {
+                            content.style.opacity = '1';
+                            content.style.transition = 'opacity 0.5s ease';
+                        }
+                    }, 500);
+                }
+            });
+        });
+
+        // Scroll to Top Button
+        const scrollTop = document.querySelector('.scroll-top');
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 100) {
+                scrollTop.classList.add('visible');
+            } else {
+                scrollTop.classList.remove('visible');
+            }
+        });
+
+        scrollTop.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Smooth Scroll for Navigation Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Language Switching
+        let currentLang = 'tr';
+        const languageItems = document.querySelectorAll('.dropdown-item');
+        
+        function updateContent(lang) {
+            const t = translations[lang];
+            
+            // Update title
+            document.title = t.title;
+            
+            // Update header
+            document.querySelector('.privacy-header h1').textContent = t.title;
+            document.querySelector('.privacy-header p').textContent = t.lastUpdate;
+            
+            // Update about section
+            document.querySelector('#about h3').textContent = t.about;
+            document.querySelector('#about p').textContent = t.aboutText;
+            
+            // Update data section
+            document.querySelector('#data h3').textContent = t.collectedData;
+            document.querySelector('#data h4').textContent = t.locationInfo;
+            const locationItems = document.querySelectorAll('#data ul:first-of-type li');
+            t.locationItems.forEach((item, index) => {
+                locationItems[index].textContent = item;
+            });
+            
+            document.querySelector('#data h4:nth-of-type(2)').textContent = t.preferences;
+            const preferenceItems = document.querySelectorAll('#data ul:last-of-type li');
+            t.preferenceItems.forEach((item, index) => {
+                preferenceItems[index].textContent = item;
+            });
+            
+            // Update usage section
+            document.querySelector('#usage h3').textContent = t.usage;
+            const usageItems = document.querySelectorAll('#usage ul li');
+            t.usageItems.forEach((item, index) => {
+                usageItems[index].textContent = item;
+            });
+            
+            // Update security section
+            document.querySelector('#security h3').textContent = t.security;
+            const securityItems = document.querySelectorAll('#security ul li');
+            t.securityItems.forEach((item, index) => {
+                securityItems[index].textContent = item;
+            });
+            
+            // Update children section
+            document.querySelector('#children h3').textContent = t.children;
+            document.querySelector('#children p').textContent = t.childrenText;
+            
+            // Update permissions section
+            document.querySelector('#permissions h3').textContent = t.permissions;
+            const permissionItems = document.querySelectorAll('#permissions ul li');
+            t.permissionItems.forEach((item, index) => {
+                permissionItems[index].textContent = item;
+            });
+            
+            // Update changes section
+            document.querySelector('#changes h3').textContent = t.changes;
+            document.querySelector('#changes p').textContent = t.changesText;
+            
+            // Update contact section
+            document.querySelector('#contact h3').textContent = t.contact;
+            document.querySelector('#contact p').textContent = t.contactText;
+            
+            // Update footer
+            document.querySelector('.footer p').textContent = t.copyright;
+            
+            // Update navigation links
+            document.querySelector('a[href="#about"]').textContent = t.about;
+            document.querySelector('a[href="#data"]').textContent = t.collectedData;
+            document.querySelector('a[href="#security"]').textContent = t.security;
+            document.querySelector('a[href="#permissions"]').textContent = t.permissions;
+            document.querySelector('a[href="#contact"]').textContent = t.contact;
+            
+            // Update RTL for Arabic
+            document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+            document.documentElement.lang = lang;
+            
+            // Restore scroll position after content update
+            window.scrollTo(0, lastScrollPosition);
+        }
+
+        languageItems.forEach(item => {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                const lang = this.getAttribute('data-lang');
+                if (lang !== currentLang) {
+                    currentLang = lang;
+                    // Remove active class from all items
+                    languageItems.forEach(i => i.classList.remove('active'));
+                    // Add active class to clicked item
+                    this.classList.add('active');
+                    // Update language code in navbar
+                    document.querySelector('#languageDropdown span').textContent = lang.toUpperCase();
+                    // Update content
+                    updateContent(lang);
+                }
+            });
+        });
+
+        // Intersection Observer for Fade-in Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Observe all info cards
+        document.querySelectorAll('.info-card').forEach(card => {
+            observer.observe(card);
+        });
+
+        // Save User Preferences
+        const savePreferences = () => {
+            const preferences = {
+                language: currentLang,
+                darkMode: window.matchMedia('(prefers-color-scheme: dark)').matches
+            };
+            localStorage.setItem('userPreferences', JSON.stringify(preferences));
+        };
+
+        // Load User Preferences
+        const loadPreferences = () => {
+            const savedPreferences = localStorage.getItem('userPreferences');
+            if (savedPreferences) {
+                const preferences = JSON.parse(savedPreferences);
+                // Apply saved language
+                const languageItem = Array.from(languageItems).find(
+                    item => item.getAttribute('data-lang') === preferences.language
+                );
+                if (languageItem) {
+                    languageItem.click();
+                }
+            }
+        };
+
+        // Initialize preferences
+        loadPreferences();
+
+        // Save preferences when changed
+        window.addEventListener('beforeunload', savePreferences);
+
+        // Social Media Links Animation
+        const socialLinks = document.querySelectorAll('.social-link');
+        socialLinks.forEach(link => {
+            link.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px)';
+            });
+            
+            link.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+
+        // Save Scroll Position
+        let lastScrollPosition = 0;
+        window.addEventListener('scroll', function() {
+            lastScrollPosition = window.pageYOffset;
+        });
+
+        // Add Tooltips to Social Links
+        socialLinks.forEach(link => {
+            const platform = link.querySelector('i').className.split(' ')[2].split('-')[2];
+            link.setAttribute('title', platform.charAt(0).toUpperCase() + platform.slice(1));
+            link.setAttribute('data-bs-toggle', 'tooltip');
+            link.setAttribute('data-bs-placement', 'top');
+        });
+
+        // Initialize Tooltips
+        const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+
+        // Add Share Functionality
+        function sharePage() {
+            if (navigator.share) {
+                navigator.share({
+                    title: document.title,
+                    text: 'Ezan Vaktim Gizlilik Politikası',
+                    url: window.location.href
+                })
+                .catch(console.error);
+            }
+        }
+
+        // Add Share Button to Navbar
+        const shareButton = document.createElement('li');
+        shareButton.className = 'nav-item';
+        shareButton.innerHTML = `
+            <a class="nav-link" href="#" onclick="sharePage(); return false;">
+                <i class="fas fa-share-alt me-1"></i>Paylaş
+            </a>
+        `;
+        document.querySelector('.navbar-nav').insertBefore(shareButton, document.querySelector('.nav-item.dropdown'));
+
+        // Add Keyboard Navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Tab') {
+                document.body.classList.add('user-is-tabbing');
+            }
+        });
+
+        document.addEventListener('mousedown', function() {
+            document.body.classList.remove('user-is-tabbing');
+        });
+
+        // Add Copy Email Functionality
+        const emailLink = document.querySelector('a[href^="mailto:"]');
+        emailLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            const email = this.href.replace('mailto:', '');
+            navigator.clipboard.writeText(email).then(() => {
+                const originalText = this.innerHTML;
+                this.innerHTML = '<i class="fas fa-check me-2"></i>Kopyalandı!';
+                setTimeout(() => {
+                    this.innerHTML = originalText;
+                }, 2000);
+            });
+        });
+
+        // FAQ Animation
+        const accordionButtons = document.querySelectorAll('.accordion-button');
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const icon = this.querySelector('.accordion-icon');
+                if (icon) {
+                    icon.style.transform = this.classList.contains('collapsed') ? 'rotate(0deg)' : 'rotate(180deg)';
+                }
+            });
+        });
+
+        // Add FAQ to Navigation
+        const faqNavItem = document.createElement('li');
+        faqNavItem.className = 'nav-item';
+        faqNavItem.innerHTML = `
+            <a class="nav-link" href="#faq">
+                <i class="fas fa-question-circle me-1"></i>SSS
+            </a>
+        `;
+        document.querySelector('.navbar-nav').insertBefore(faqNavItem, document.querySelector('.nav-item.dropdown'));
+
+        // Add Search Functionality
+        const searchContainer = document.createElement('div');
+        searchContainer.className = 'search-container';
+        searchContainer.innerHTML = `
+            <input type="text" class="form-control" placeholder="Ara..." id="searchInput">
+        `;
+        document.querySelector('.privacy-header').appendChild(searchContainer);
+
+        // Search Functionality
+        const searchInput = document.getElementById('searchInput');
+        searchInput.addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase();
+            const cards = document.querySelectorAll('.info-card');
+            
+            cards.forEach(card => {
+                const text = card.textContent.toLowerCase();
+                if (text.includes(searchTerm)) {
+                    card.style.display = 'block';
+                    card.classList.add('highlight');
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+
+        // Add Back to Top Button Enhancement
+        const backToTop = document.querySelector('.scroll-top');
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 100) {
+                backToTop.classList.add('visible');
+                backToTop.style.opacity = '1';
+            } else {
+                backToTop.classList.remove('visible');
+                backToTop.style.opacity = '0';
+            }
+        });
+
+        // Add Progress Bar
+        const progressBar = document.createElement('div');
+        progressBar.className = 'progress-bar';
+        document.body.appendChild(progressBar);
+
+        window.addEventListener('scroll', function() {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            progressBar.style.width = scrolled + '%';
+        });
+
+        // Add Print Button
+        const printButton = document.createElement('button');
+        printButton.className = 'btn btn-outline-primary print-button';
+        printButton.innerHTML = '<i class="fas fa-print me-2"></i>Yazdır';
+        printButton.onclick = function() {
+            window.print();
+        };
+        document.querySelector('.privacy-header').appendChild(printButton);
+
+        // Add Copy Section Functionality
+        document.querySelectorAll('.info-card').forEach(card => {
+            const copyButton = document.createElement('button');
+            copyButton.className = 'btn btn-sm btn-outline-secondary copy-button';
+            copyButton.innerHTML = '<i class="fas fa-copy"></i>';
+            copyButton.onclick = function() {
+                const text = card.textContent;
+                navigator.clipboard.writeText(text).then(() => {
+                    const originalHTML = this.innerHTML;
+                    this.innerHTML = '<i class="fas fa-check"></i>';
+                    setTimeout(() => {
+                        this.innerHTML = originalHTML;
+                    }, 2000);
+                });
+            };
+            card.appendChild(copyButton);
+        });
+
+        // Add Keyboard Shortcuts
+        document.addEventListener('keydown', function(e) {
+            // Ctrl/Cmd + F for search
+            if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+                e.preventDefault();
+                searchInput.focus();
+            }
+            // Ctrl/Cmd + P for print
+            if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
+                e.preventDefault();
+                window.print();
+            }
+        });
+    </script>
+    </body>
+    </html> 
